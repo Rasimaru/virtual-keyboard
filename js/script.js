@@ -1,10 +1,10 @@
 'use strict';
 
 const keys = [
-  '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'backspace',
-  'tab', 'q', 'w', 'e', 'r', 't', 'y', 'u', 'i', 'o', 'p', '[', ']', '\\', 'capslock', 'a', 's', 'd', 'f', 'g', 'h', 'j', 'k', 'l', ';', "'", 'enter',
-  'shift', 'z', 'x', 'c', 'v', 'b', 'n', 'm', ',', '.', '/', 'shift', '↑', 'alt',
-  'ctrl', '⊞', 'alt', ' ', '▤', 'ctrl', '←', '↓', '→'
+  '`', '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', '-', '=', 'Backspace',
+  'Tab', 'Q', 'W', 'E', 'R', 'T', 'Y', 'U', 'I', 'O', 'P', '[', ']', '\\', 'Caps Lock', 'A', 'S', 'D', 'F', 'G', 'H', 'J', 'K', 'L', ';', "'", 'Enter',
+  'Shift', 'Z', 'X', 'C', 'V', 'B', 'N', 'M', ',', '.', '/', 'Shift', '↑', 'Alt',
+  'Ctrl', '⊞', 'Alt', ' ', '▤', 'Ctrl', '←', '↓', '→'
 ]
 
 function createKeyboard() {
@@ -45,3 +45,4 @@ function getContent() {
 }
 
 document.addEventListener('DOMContentLoaded', getContent);
+
