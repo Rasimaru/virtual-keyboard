@@ -1,6 +1,2 @@
-@import url(./nullstyle.css);
+@import url('./nullstyle.css');
 
-html,
-body {
-	scroll-behavior: smooth;
-}
